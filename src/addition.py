@@ -1,6 +1,6 @@
 # app.py
 # This is a test commit
-#Commit on this forked repo
+# Commited on this forked repo
 def add(a, b):
     return a + b
 
