@@ -1,0 +1,10 @@
+name: Testing workflow
+on: [push]
+jobs:
+  my-job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Testing
+        run: echo "Hello viewers!testing for github actions"
